@@ -75,7 +75,7 @@ of the configuration and persistence files on each of the nodes.
     from the [rladmin]({{< relref "/rs/references/rladmin.md" >}}) command-line interface (CLI):
 
     ```src
-    cluster recover filename [ <persistent_path> | <ephemeral_path> ]<filename> node_uid <node_uid> rack_id <rack_id>
+    cluster recover filename <filename> [ persistent_path <persistent_path> ] [ephemeral_path <ephemeral_path> ] node_uid <node_uid> [rack_id <rack_id>]
     ```
 
     {{% expand "Command syntax" %}}
